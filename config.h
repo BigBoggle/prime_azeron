@@ -1,0 +1,17 @@
+
+// Joystick Definitions
+#define ANALOG_AXIS_PIN_X GP28
+#define ANALOG_AXIS_PIN_Y GP29
+
+#define JOYSTICK_BUTTON_COUNT 0
+#define JOYSTICK_AXIS_COUNT 2
+#define JOYSTICK_AXIS_RESOLUTION 10
+
+// Bootmagic
+#define BOOTMAGIC_ROW_LEFT 2
+#define BOOTMAGIC_COLUMN_LEFT 0
+
+#define BOOTMAGIC_ROW_RIGHT 2
+#define BOOTMAGIC_COLUMN_RIGHT 3
+
+// TODO: Define Status Pin LEDS
