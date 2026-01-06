@@ -1,3 +1,4 @@
+#include "keycodes.h"
 #include QMK_KEYBOARD_H
 
 enum custom_keycodes
@@ -20,5 +21,5 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
                  KC_LSFT, KC_TRNS, KC_TRNS, KC_SPC,
                  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-                 KC_F, KC_E, QK_BOOT)};
+                 KC_F, KC_E, KC_SPC)};
 
