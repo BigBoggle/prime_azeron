@@ -1,6 +1,7 @@
 #include "keycodes.h"
 #include QMK_KEYBOARD_H
 
+// TODO: Implement Later
 enum custom_keycodes
 {
     J_UP,
@@ -22,4 +23,5 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                  KC_LSFT, KC_TRNS, KC_TRNS, KC_SPC,
                  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
                  KC_F, KC_E, KC_SPC)};
+
 

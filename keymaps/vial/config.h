@@ -14,3 +14,8 @@
 
 #define VIAL_UNLOCK_COMBO_ROWS {2, 2}
 #define VIAL_UNLOCK_COMBO_COLS {0, 3}
+
+// OLED
+#define I2C_DRIVER I2CD1
+#define I2C1_SCL_PIN GP15
+#define I2C1_SDA_PIN GP14
